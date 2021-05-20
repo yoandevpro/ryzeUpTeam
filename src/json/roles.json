@@ -1,0 +1,46 @@
+{
+    "roles": {
+        "attacker":{
+            "categories":{
+                "britcher": "britcher",
+                "entry" : "entry",
+                "shield": "shield",
+                "support": "support"
+            },
+            "staff":{
+                "grenade": true,
+                "flash": true,
+                "c4": false,
+                "explosiv" : true,
+                "percution": false,
+                "renforce": false,
+                "barbele": false,
+                "camera": false,
+                "drones": true,
+                "alarm": false
+            }
+           
+        },
+        "defender":{
+            "categories":{
+                "roamer": "roamer",
+                "shield": "shield",
+                "bp": "bp",
+                "support": "support"
+            },
+            "staff":{
+                "grenade": false,
+                "flash": false,
+                "c4": true,
+                "explosiv" : false,
+                "percution": true,
+                "renforce": true,
+                "barbele": true,
+                "camera": true,
+                "drones": false,
+                "alarm": true
+            }
+          
+        }
+    }
+}

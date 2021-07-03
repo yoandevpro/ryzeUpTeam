@@ -1,12 +1,13 @@
 import PlayerCard from "./playerCard";
-import { team } from "../constantes/ENV";
 
 // const cardTeam = [yoanCard,vincentCard,thibaultCard,oscarCard,pauloCard]
-function PlayerList() {
+function PlayerList(props) {
+  const team = props?.team;
+
   return (
     <div className="playerList">
       {team.map((player) => (
-        <PlayerCard username={player} />
+        <PlayerCard username={player} key={player} />
       ))}
     </div>
   );

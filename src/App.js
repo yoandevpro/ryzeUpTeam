@@ -1,6 +1,7 @@
 import "./css/App.css";
 import React from "react";
 import PlayerList from "./components/playerList";
+import { team } from "./constantes/ENV";
 
 //let url = `https://api2.r6stats.com/public-api/stats/${username}/${platform}/generic`
 
@@ -12,7 +13,7 @@ import PlayerList from "./components/playerList";
 function App() {
   return (
     <div className="App">
-      <PlayerList />
+      <PlayerList team={team} />
     </div>
   );
 }

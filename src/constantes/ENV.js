@@ -7,8 +7,8 @@ const API = new R6StatsAPI(API_KEY);
 const platform = process.env.REACT_APP_PLATFORM;
 const team = [
   "D3AD3VIL",
-  "Veight.",
-  "DonUnhdar",
+  "Veight_.",
+  "DonUnhdar_",
   "Evilgun31",
   "thesnakers31",
   "Grogu.Power",

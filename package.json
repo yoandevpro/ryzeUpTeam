@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve":"node ./src/index.js",
+    "serve": "node ./src/index.js",
     "env": "node ./src/constantes/ENV.js"
   },
   "eslintConfig": {

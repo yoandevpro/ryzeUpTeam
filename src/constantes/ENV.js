@@ -1,4 +1,4 @@
-require('dotenv').config({path: '/home/patronus/PROJET/reactJS/reactest/.env'})
+require('dotenv').config({path: '/home/patronus/PROJET/reactJS/ryzeupteamGithub/ryzeUpTeam/.env'})
 const R6StatsAPI = require('r6statsapi').default
 const API_KEY = process.env.API_KEY
 const API = new R6StatsAPI(API_KEY)

@@ -1,0 +1,38 @@
+$body : #fcfda7 !default;
+$banniere : #966a1a !default;
+$section : #d4b449 !default;
+$span : #fde88a !default;
+$para : #3b3011 !default;
+$footer : #614b0e !default;
+$border : white !default;
+$sidebar: #e59cbf !default;
+body{
+    background-color: $body;
+}
+.banniere{
+    background-color: $banniere;
+}
+.statSpan{
+    color: $span;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.statsPlayer{
+    background-color: $section;
+}
+p{
+    color: $para;
+    font-weight: bold;
+}
+img{
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+footer{
+    background-color: $footer;
+}
+.playerCard{  
+    border: 3px solid $footer;
+  }
+

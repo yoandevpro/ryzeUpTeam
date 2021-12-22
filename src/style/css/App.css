@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+p{
+  margin: 0px;
+  padding: 2%;
+}
+h1{
+  margin: 0;
+  padding: 10px;
+}
+.statSpan{
+  font-weight: bold;
+}
+.playerCard{  
+  display: inline-block;
+  width: 22%;
+  margin: 1%;
+  height: auto;
+}
+.playerList{
+  width: 100%;
+}

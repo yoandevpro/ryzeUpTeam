@@ -6,12 +6,10 @@ const API_KEY = process.env.REACT_APP_API_KEY;
 const API = new R6StatsAPI(API_KEY);
 const platform = process.env.REACT_APP_PLATFORM;
 const team = [
-  "D3AD3VIL",
-  "Veight_.",
-  "DonUnhdar_",
-  "Evilgun31",
-  "thesnakers31",
-  "Grogu.Power",
+    process.env.REACT_APP_YOAN, 
+    process.env.REACT_APP_VINCENT,
+    process.env.REACT_APP_SlipAboli,
+    process.env.REACT_APP_SilpTrouer
 ];
 module.exports = {
   team,

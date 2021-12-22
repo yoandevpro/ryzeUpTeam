@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/index.css';
+import './style/css/index.css';
+import './style/scss/colorsTheme.scss';
+
+// import './style/css/App.css';
 // import PlayerList from './components/playerList'
 import App from './App';
 import reportWebVitals from './reportWebVitals';

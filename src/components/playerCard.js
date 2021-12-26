@@ -56,7 +56,6 @@ function PlayerCard(props) {
 
   useEffect(() => {
     // console.log(getData(props.username));
-    // eslint-disable-next-line
     getData(props.username);
 // eslint-disable-next-line
   },[props.username]);

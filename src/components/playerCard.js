@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { platform, API, API_KEY } from "../constantes/ENV";
-
+import { API_KEY } from "../constantes/ENV";
+//API / platform
 // import StatsButton from "./buttons";
 //let url = `https://api2.r6stats.com/public-api/stats/${username}/${platform}/generic`
 
@@ -51,14 +51,15 @@ function PlayerCard(props) {
       //   seasonRank: gameDatasPlayer.seasonRank,
       //,console.log(gameDatasPlayer)
     });
-  };
+  }; // fin getdata()
  
 
   useEffect(() => {
     // console.log(getData(props.username));
+    // eslint-disable-next-line
     getData(props.username);
-
-  }, [props.username]);
+// eslint-disable-next-line
+  },[props.username]);
   // componentDidMount()
 
   return (

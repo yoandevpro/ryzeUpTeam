@@ -1,5 +1,5 @@
 require("dotenv").config({
-  path: "/home/chris/workspace/Formation/ryzeup/ryzeUpTeam/.env",
+  path: "/home/patronus/PROJET/reactJS/GITHUB/ryzeUpTeam/.env",
 });
 const R6StatsAPI = require("r6statsapi").default;
 const API_KEY = process.env.REACT_APP_API_KEY;

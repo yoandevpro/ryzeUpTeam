@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import PlayerCard from './playerCard'
 import {team,ENVyoan, ENVvincent , ENVthibault , ENVoscar , ENVpaul , ENValex} from '../constantes/ENV.js'
 console.log(team)
@@ -16,3 +17,20 @@ function PlayerList(){
     )
 }
 export default PlayerList
+=======
+import PlayerCard from "./playerCard";
+
+// const cardTeam = [yoanCard,vincentCard,thibaultCard,oscarCard,pauloCard]
+function PlayerList(props) {
+  const team = props?.team;
+
+  return (
+    <div className="playerList">
+      {team.map((player) => (
+        <PlayerCard username={player} key={player} />
+      ))}
+    </div>
+  );
+}
+export default PlayerList;
+>>>>>>> bdce5339d34f31e95af0a2b5ae5b08acd4ea024b

@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './style/css/index.css';
+import './style/scss/colorsTheme.scss';
+
+// import './style/css/App.css';
+// import PlayerList from './components/playerList'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PlayerList from './components/playerList'
-
 ReactDOM.render(
   <React.StrictMode>
-     <App /> 
+        <App />
+    {/* <PlayerList/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,9 +1,11 @@
    import {team, platform,API} from './constantes/ENV'
    function getTeamStats(){
-            if(typeof team.forEach((player) =>  player) !== 'string' && typeof platform !== 'string'){
+
+            if(typeof team.forEach(player => player) !== 'string' && typeof platform !== 'string'){
                console.log('please enter string parameters');
             }else{
-              API.getGenericStats(team.forEach((player) => player), platform, 'all').then(userStats => console.log(JSON.parse(userStats)))
+              API.getGenericStats(team.forEach(player => player), platform, 'all').then(userStats => console.log(userStats))
+
            }
       
     }

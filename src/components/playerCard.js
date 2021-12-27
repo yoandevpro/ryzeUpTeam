@@ -38,6 +38,7 @@ function PlayerCard(props) {
     //     },
     //   })
     //   .then((response) => response.data);
+    
     setPlayer({
       ...player,
       urlAvatar: gameDatasPlayer?.avatar_url_146,

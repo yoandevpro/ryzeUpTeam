@@ -41,6 +41,7 @@ p{
   padding: 2%;
 }
 h1{
+  box-sizing: border-box;
   margin: 0;
   padding: 10px;
 }
@@ -49,10 +50,14 @@ h1{
 }
 .playerCard{  
   display: inline-block;
-  width: 22%;
+  /* width: 22%; */
+  /* 22% */
   margin: 1%;
   height: auto;
 }
 .playerList{
+  width: 100%;
+}
+img{
   width: 100%;
 }

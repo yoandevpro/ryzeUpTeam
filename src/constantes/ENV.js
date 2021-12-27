@@ -9,7 +9,8 @@ const team = [
   "D3AD3VIL",
   "Veight_.",
   "Slip.Aboli",
-  "Silp.trouer"
+  "Silp.trouer",
+  "Sneakyy.2k"
 ];
 module.exports = {
   team,

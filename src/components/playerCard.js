@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { API_KEY } from "../constantes/ENV";
+// import r6operators from "r6operators"
 //API / platform
 // import StatsButton from "./buttons";
 //let url = `https://api2.r6stats.com/public-api/stats/${username}/${platform}/generic`
@@ -76,6 +77,9 @@ function PlayerCard(props) {
           <p>parties total jouées : <span className="statSpan">{player.totalGamesPlayed}</span></p>
           <p>lvl :                  <span className="statSpan">{player.lvl}</span></p>
           <p>temps joué :           <span className="statSpan">{player.playTime}h</span></p>
+          {/* <p>main attaquant : <img alt="maverick" src="../../node_modules/r6operators/lib/icons/png/maverick.png"></img></p> */}
+              
+          
         </section>
                {/*    <p>{player.allStats}</p>
                         <StatsButton username={props.username} rank={state.rank} season={state.seasonRank}/> */}

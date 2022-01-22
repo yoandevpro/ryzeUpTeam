@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "ryzeupteam",
-=======
-  "name": "reactest",
->>>>>>> bdce5339d34f31e95af0a2b5ae5b08acd4ea024b
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,35 +7,20 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
-<<<<<<< HEAD
-=======
-    "dotenv": "^8.2.0",
->>>>>>> bdce5339d34f31e95af0a2b5ae5b08acd4ea024b
     "r6operators": "^1.5.0",
     "r6statsapi": "^1.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-<<<<<<< HEAD
     "unfetch": "^4.2.0",
     "web-vitals": "^1.1.2",
     "webpack-bundle": "^0.9.70"
-=======
-    "sass": "^1.45.1",
-    "web-vitals": "^1.1.2"
->>>>>>> bdce5339d34f31e95af0a2b5ae5b08acd4ea024b
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-<<<<<<< HEAD
     "eject": "react-scripts eject"
-=======
-    "eject": "react-scripts eject",
-    "serve": "node ./src/index.js",
-    "env": "node ./src/constantes/ENV.js"
->>>>>>> bdce5339d34f31e95af0a2b5ae5b08acd4ea024b
   },
   "eslintConfig": {
     "extends": [
@@ -58,11 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
->>>>>>> bdce5339d34f31e95af0a2b5ae5b08acd4ea024b
   }
 }

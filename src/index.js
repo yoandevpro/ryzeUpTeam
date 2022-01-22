@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/css/index.css';
 import './style/scss/colorsTheme.scss';
-import logo from '/home/patronus/PROJET/reactJS/GITHUB/ryzeUpTeam/src/img/ryseup.png';
+import logo from '/home/patronus/PROJET/reactJS/GITHUB/ryzeUpTeam/src/ryseup.png';
 // import './style/css/App.css';
 // import PlayerList from './components/playerList'
 import App from './App';

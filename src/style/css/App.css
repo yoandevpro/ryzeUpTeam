@@ -41,7 +41,7 @@ p{
   padding: 2%;
 }
 h1{
-  box-sizing: border-box;
+
   margin: 0;
   padding: 10px;
 }
@@ -58,6 +58,13 @@ h1{
 .playerList{
   width: 100%;
 }
-img{
+.imgPlayer{
   width: 100%;
+  box-sizing: border-box;
+}
+.logo{
+  display: block;
+  margin: 0 auto;
+  width: 30vw;
+  border-style: none;
 }

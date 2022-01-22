@@ -1,4 +1,12 @@
    import {team, platform,API} from './constantes/ENV'
+   function minuteTimerDown(){
+    let minute = 60;
+      setInterval(()=> {
+        minute===0? minute = 60 : minute--
+        document.getElementById('minuteTimer').textContent = minute;
+      },1000)
+   }
+
    function getTeamStats(){
             if(typeof team.forEach(player => player) !== 'string' && typeof platform !== 'string'){
                console.log('please enter string parameters');
@@ -51,4 +59,4 @@ function getUserStats(player){
             console.log('please enter string parameter') 
           }
       }
-    export {getQueueStats,getSeasonStats,getUserStats,getUsername,getTeamStats}
+    export {getQueueStats,getSeasonStats,getUserStats,getUsername,getTeamStats,minuteTimerDown}

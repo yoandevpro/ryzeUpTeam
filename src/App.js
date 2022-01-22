@@ -13,7 +13,9 @@ import { team } from "./constantes/ENV";
 // getSeasonStats('D3AD3VIL');
 function App() {
   return (
+ 
     <div className="App">
+      <p>réactualisation des données dans : <span id="minuteTimer"></span></p>
       <PlayerList team={team} />
     </div>
   );

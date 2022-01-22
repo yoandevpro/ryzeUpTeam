@@ -2,14 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/css/index.css';
 import './style/scss/colorsTheme.scss';
-
-
+import logo from '/home/patronus/PROJET/reactJS/GITHUB/ryzeUpTeam/src/img/ryseup.png';
 // import './style/css/App.css';
 // import PlayerList from './components/playerList'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
 ReactDOM.render(
   <React.StrictMode>
+    <div>
+    <img className="logo" alt="logo-team" src={logo}/>
+    </div>
         <App />
     {/* <PlayerList/> */}
   </React.StrictMode>,

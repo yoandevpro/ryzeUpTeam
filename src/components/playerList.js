@@ -5,10 +5,11 @@ function PlayerList(props) {
   const team = props?.team;
 
   return (
+    
     <div className="playerList">
-      {team.map((player) => (
-        <PlayerCard username={player} key={player} />
-      ))}
+        {team.map((player) => (
+          <PlayerCard username={player} key={player} />
+        ))}
     </div>
   );
 }

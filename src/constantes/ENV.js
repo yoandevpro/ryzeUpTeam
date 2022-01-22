@@ -4,17 +4,19 @@ require("dotenv").config({
 const R6StatsAPI = require("r6statsapi").default;
 const API_KEY = process.env.REACT_APP_API_KEY;
 const API = new R6StatsAPI(API_KEY);
+// const LOGOTEAMSRC = process.env.REACT_APP_LOGO_TEAM_SRC;
 
 const team = [
-  "D3AD3VIL",
+  "RU.patronus",
   "Veight_.",
-  "Slip.Aboli",
-  "Silp.trouer",
-  "Sneakyy.2k"
+  "Sleezyy.exe",
+  "thero28.HEEL"
+
 ];
 module.exports = {
   team,
   API_KEY,
   API,
-  R6StatsAPI,
+  R6StatsAPI
+  // LOGOTEAMSRC
 };

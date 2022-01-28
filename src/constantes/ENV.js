@@ -10,8 +10,8 @@ const team = [
   "RU.patronus",
   "Veight_.",
   "Sleezyy.exe",
-  "thero28.HEEL"
-
+  "thero28.HEEL",
+  "venixn"
 ];
 module.exports = {
   team,

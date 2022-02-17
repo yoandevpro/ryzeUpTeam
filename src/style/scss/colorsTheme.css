@@ -1,0 +1,35 @@
+body {
+  background-color: #fcfda7;
+}
+
+.banniere {
+  background-color: #966a1a;
+}
+
+.statSpan {
+  color: #fde88a;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.statsPlayer {
+  background-color: #d4b449;
+}
+
+p {
+  color: #3b3011;
+  font-weight: bold;
+}
+
+img {
+  margin-bottom: 20px;
+  border: 3px solid white;
+}
+
+footer {
+  background-color: #614b0e;
+}
+
+.playerCard {
+  border: 3px solid #614b0e;
+}/*# sourceMappingURL=colorsTheme.css.map */

@@ -59,4 +59,5 @@ function getUserStats(player){
             console.log('please enter string parameter') 
           }
       }
+  
     export {getQueueStats,getSeasonStats,getUserStats,getUsername,getTeamStats,minuteTimerDown}

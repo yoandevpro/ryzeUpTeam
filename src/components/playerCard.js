@@ -158,7 +158,7 @@ function PlayerCard(props) {
     // eslint-disable-next-line
     minuteTimerDown()
     setInterval(getData(props.username),60000);
-
+console.log(player)
 
 // eslint-disable-next-line
   },[props.username]);

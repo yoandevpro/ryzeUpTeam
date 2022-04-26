@@ -1,7 +1,7 @@
 import "./style/css/App.css";
 import React from "react";
 import PlayerList from "./components/playerList";
-import { team } from "./constantes/ENV";
+import { roaster2, roaster1 } from "./constantes/ENV";
 // import {getSeasonStats} from './apiFunctions'
 
 //let url = `https://api2.r6stats.com/public-api/stats/${username}/${platform}/generic`
@@ -13,10 +13,10 @@ import { team } from "./constantes/ENV";
 // getSeasonStats('D3AD3VIL');
 function App() {
   return (
- 
     <div className="App">
       <p>réactualisation des données dans : <span id="minuteTimer"></span></p>
-      <PlayerList team={team} />
+      <PlayerList team={roaster1} teamName="roaster1" />
+      <PlayerList team={roaster2} teamName="roaster2" />
     </div>
   );
 }

@@ -7,6 +7,15 @@
       },1000)
    }
 
+ 
+    function toObject(arr){
+      var rv = {};
+      for (var i = 0; i < arr.length; ++i)
+        rv[i] = arr[i];
+      return rv;
+    }
+   console.log(toObject(team))
+
    function getTeamStats(){
             if(typeof team.forEach(player => player) !== 'string' && typeof platform !== 'string'){
                console.log('please enter string parameters');

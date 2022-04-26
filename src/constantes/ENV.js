@@ -7,11 +7,11 @@ const API = new R6StatsAPI(API_KEY);
 // const LOGOTEAMSRC = process.env.REACT_APP_LOGO_TEAM_SRC;
 
 const roaster2 = [
-  "Patronus.RU",
-  "Veight.RU",
+  "Patronus.SQOL",
+  "Veight.SQOL",
+  "CrysTaLFR.SQOL",
   "SQOL_FFADAL",
-  "XIX_CrysTaLFR",
-  "Vlad.Levin"
+  "Paulo.SQOL"
 ];
 const roaster1 = [
   "Volt8.OTLS",

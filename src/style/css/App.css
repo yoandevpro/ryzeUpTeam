@@ -67,6 +67,7 @@ h1{
   margin: 0 auto;
   width: 30vw;
   border-style: none;
+  border-radius: 100%;
 }
 .App > p{
   display: block;

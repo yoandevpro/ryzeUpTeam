@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style/css/index.css';
 import './style/scss/colorsTheme.scss';
-import logoSrc from './ryseup.png';
+import logoSrc from './SQOL.jpg';
 // import './style/css/App.css';
 // import PlayerList from './components/playerList'
 import App from './App';
@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <div>
-    <img className="logo" alt="logo-team" src={logoSrc}/>
+    <img className="logo" alt="logo-SQOL" src={logoSrc}/>
     </div>
         <App />
     {/* <PlayerList/> */}

@@ -10,15 +10,16 @@ const roaster2 = [
   "Patronus.SQOL",
   "Veight.SQOL",
   "CrysTaLFR.SQOL",
-  "SQOL_FFADAL",
+  "EagleFoxTv34.SQOL",
   "Paulo.SQOL"
 ];
 const roaster1 = [
-  "Volt8.OTLS",
-  "BYZ_FUzTRO",
-  "EagleFoxTv34",
-  "XIX_Parzival",
-  "dezai_fr"
+  "Parzival.SQOL",
+  "PARADOX.SQOL",
+  "SHINZU.SQOL",
+  "ZyRoX98.SQOL",
+  "CrysTaLFR.SQOL",
+  "Patronus.SQOL"
 ];
 const team = [
   roaster1,

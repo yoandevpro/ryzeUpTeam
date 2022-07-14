@@ -1,11 +1,15 @@
-$body : #fcfda7 !default;
-$banniere : #966a1a !default;
-$section : #d4b449 !default;
-$span : #fde88a !default;
-$para : #3b3011 !default;
-$footer : #614b0e !default;
-$border : white !default;
-$sidebar: #e59cbf !default;
+$body : #011327 !default;
+$banniere : #034945 !default;
+$section : #01273b !default;
+$span : #01e9ad !default;
+$para : #034d4a !default;
+$footer : #826db3 !default;
+$border : #01e9ad !default;
+$link : $border !default;
+h1, h2{
+    color: white;
+}
+
 body{
     background-color: $body;
 }
@@ -27,12 +31,17 @@ p{
 }
 img{
     margin-bottom: 20px;
-    border: 3px solid white;
+    border: 3px solid #01e9ad;
 }
 footer{
     background-color: $footer;
+    padding: 50px;
+    margin-top: 50px;
 }
 .playerCard{  
-    border: 3px solid $footer;
+    border: 3px solid $border;
   }
-
+a{
+    color: $link;
+    text-decoration: none;
+}

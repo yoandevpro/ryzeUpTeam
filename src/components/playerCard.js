@@ -168,7 +168,7 @@ console.log(player)
     
     <div className="playerCard">
       <div className="banniere">
-      <h1 className="username">{player.username}</h1>
+      <h2 className="username">{player.username}</h2>
         <img className="imgPlayer" alt={player.username} src={player.urlAvatar} />
       </div>
         <section className="statsPlayer">

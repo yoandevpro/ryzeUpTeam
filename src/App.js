@@ -14,9 +14,9 @@ import { roaster2, roaster1 } from "./constantes/ENV";
 function App() {
   return (
     <div className="App">
-      <p>réactualisation des données dans : <span id="minuteTimer"></span></p>
-      <PlayerList team={roaster1} teamName="roaster1" />
-      <PlayerList team={roaster2} teamName="roaster2" />
+      <p id="reactualisation">réactualisation des données dans : <span id="minuteTimer"></span></p>
+      <PlayerList team={roaster1} teamName="R6 roaster 1" />
+      <PlayerList team={roaster2} teamName="R6 roaster 2" />
     </div>
   );
 }

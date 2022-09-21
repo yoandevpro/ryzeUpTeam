@@ -1,23 +1,27 @@
+h1, h2 {
+  color: white;
+}
+
 body {
-  background-color: #fcfda7;
+  background-color: #011327;
 }
 
 .banniere {
-  background-color: #966a1a;
+  background-color: #034945;
 }
 
 .statSpan {
-  color: #fde88a;
+  color: #01e9ad;
   font-weight: bolder;
   font-size: 1.2rem;
 }
 
 .statsPlayer {
-  background-color: #d4b449;
+  background-color: #01273b;
 }
 
 p {
-  color: #3b3011;
+  color: #034d4a;
   font-weight: bold;
 }
 
@@ -26,7 +30,17 @@ img {
   border: 3px solid #01e9ad;
 }
 
+footer {
+  background-color: #826db3;
+  padding: 50px;
+  margin-top: 50px;
+}
 
 .playerCard {
   border: 3px solid #01e9ad;
+}
+
+a {
+  color: #01e9ad;
+  text-decoration: none;
 }/*# sourceMappingURL=colorsTheme.css.map */

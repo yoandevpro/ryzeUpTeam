@@ -6,6 +6,13 @@
         document.getElementById('minuteTimer').textContent = minute;
       },1000)
    }
+   function searchStringInArray (str, strArray) {
+    for (var j=0; j<strArray.length; j++) {
+        if (strArray[j].match(str)) return j;
+    }
+    console.log(`str value :${str} and strArr ${strArray}` );
+    return -1;
+}
 
  
     function toObject(arr){
@@ -24,6 +31,11 @@
            }
       
     }
+
+   
+    
+    // inputRoaster
+    // submit
     
     //  async function getTeamStats(){
     //      for(player = 0;player <= team.length ; player++){
@@ -69,4 +81,4 @@ function getUserStats(player){
           }
       }
   
-    export {getQueueStats,getSeasonStats,getUserStats,getUsername,getTeamStats,minuteTimerDown}
+    export {getQueueStats,getSeasonStats,getUserStats,getUsername,getTeamStats,minuteTimerDown,searchStringInArray}
